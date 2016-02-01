@@ -1,0 +1,10 @@
+                                  Table "public.models"
+   Column   |         Type          |                      Modifiers                      
+------------+-----------------------+-----------------------------------------------------
+ id         | integer               | not null default nextval('models_id_seq'::regclass)
+ year       | integer               | not null
+ brand_name | character varying(50) | 
+ name       | character varying(50) | not null
+Indexes:
+    "models_pkey" PRIMARY KEY, btree (id)
+
